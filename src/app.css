@@ -3,3 +3,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .sidebar-icon{
+        @apply relative bg-primary hover:bg-accent p-4 rounded-[3rem] hover:rounded-2xl text-accent hover:text-white shadow-lg transition-all duration-300 ease-linear cursor-pointer
+    }
+
+    .sidebar-tooltip{
+        @apply font-baloo absolute w-auto p-2 pr-3 min-w-max left-24 top-1/4 rounded-md shadow-md text-white bg-primary text-xl font-semibold transition-all duration-200 scale-0 origin-left 
+    }
+
+    .divider{
+        @apply h-1 w-2/3 border-2 mx-auto rounded-sm border-primary bg-primary
+    }
+}

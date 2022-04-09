@@ -1,23 +1,7 @@
-<script>
-	import Spinner from '../components/tripleSpinner.svelte';
-</script>
-
-<nav class="flex fixed h-16 inset-x-0 z-50" id="navbar">
-	<div class="flex items-center px-4 w-full bg-white" id="toph">
-		<a class="font-baloo font-bold text-[2rem] no-underline text-black" href="/"> Toph </a>
+<div class="flex bg-primary h-screen">
+	<div class="w-1/3 z-40 shadow-2xl p-3">
+		<p class="font-baloo font-black text-7xl text-offWhite text-center pb-4">Welcome</p>
+		<div class="w-2/3 border-2 mx-auto rounded-sm border-secondary bg-secondary" />
 	</div>
-	<div class="flex items-center px-4 bg-gray-300" id="projects">
-		<a class="font-baloo font-bold text-[2rem] no-underline text-black" href="/"> Projects </a>
-	</div>
-	<div class="flex items-center px-4 bg-gray-600" id="experience">
-		<a class="font-baloo font-bold text-[2rem] no-underline text-black" href="/"> Experience </a>
-	</div>
-</nav>
-
-<div class="absolute -bottom-36 -right-36 z-0" id="bg-spinner">
-	<Spinner color="#000" colorSecondary="#000" spinnerSize="350px" />
+	<div class="w-2/3 bg-secondary z-30" />
 </div>
-
-<style>
-	/* changed to tailwindcss */
-</style>
