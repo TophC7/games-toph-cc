@@ -4,6 +4,7 @@
 </script>
 
 <div class="flex bg-primary h-screen font-baloo">
+	<!-- INFO: column with titles and lists -->
 	<div name="first-col" class="flex flex-col w-1/4 min-w-max z-40 px-4 gap-4">
 		<header class="flex h-24 place-items-center mb-1">
 			<p class="font-black text-4xl text-offWhite mt-1">Welcome</p>
@@ -16,10 +17,9 @@
 		<!-- <div class="w-2/3 border-2 mx-auto rounded-sm border-secondary bg-secondary" /> -->
 	</div>
 
+	<!-- INFO: column with content -->
 	<div name="second-col" class="w-3/4 bg-secondary z-30">
-		<header
-			class="flex h-24 p-4 text-4xl gap-4 place-items-center font-semibold shadow-2xl text-grayAccent"
-		>
+		<header class="flex h-24 p-4 text-4xl gap-4 place-items-center font-semibold shadow-2xl text-grayAccent">
 			<Fa icon={faHashtag} />
 			<p class=" mt-1 text-complementary">Hello</p>
 		</header>
