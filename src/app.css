@@ -6,7 +6,7 @@
 
 @layer components {
     .sidebar-icon{
-        @apply relative bg-primary hover:bg-accent p-4 rounded-[3rem] hover:rounded-2xl text-accent hover:text-white shadow-lg transition-all duration-300 ease-linear cursor-pointer
+        @apply relative bg-primary hover:bg-accent p-4 rounded-[3rem] hover:rounded-2xl text-accent hover:text-white shadow-2xl transition-all duration-300 ease-linear cursor-pointer
     }
 
     .sidebar-tooltip{

@@ -1,7 +1,5 @@
 <script>
 	import '../app.css';
-	import Fa from 'svelte-fa';
-	import { faFlag } from '@fortawesome/free-solid-svg-icons';
 	import Croissant from '../../static/croissant.svelte';
 	import SpaceCat from '../../static/spaceCat.svelte';
 	import Briefcase from '../../static/briefcase.svelte';
