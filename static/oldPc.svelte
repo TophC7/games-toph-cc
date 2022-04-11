@@ -3,14 +3,7 @@
 	export let opacity;
 </script>
 
-<svg
-	viewBox="0 0 2266 2588"
-	xmlns="http://www.w3.org/2000/svg"
-	fill-rule="evenodd"
-	clip-rule="evenodd"
-	stroke-linejoin="round"
-	stroke-miterlimit="2"
->
+<svg class="w-full h-full" viewBox="0 0 2266 2588" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
 	<path
 		d="M2103.59 2266.2v320.834H161.92V2266.2h1941.67zM2265.51 125c0-69.036-55.964-125-125-125H125C55.964 0 0 55.964 0 125v1893.28c0 46.024 37.31 83.333 83.333 83.333h2098.84c46.023 0 83.333-37.309 83.333-83.333V125zM404.2 1598.32c55.313 0 100.22 45.252 100.22 100.991 0 55.738-44.907 100.991-100.22 100.991s-100.22-45.253-100.22-100.991c0-55.739 44.907-100.991 100.22-100.991zm1538.55 67.71c0-27.504-22.329-49.834-49.833-49.834h-710.333c-27.504 0-49.834 22.33-49.834 49.834v66.444c0 27.504 22.33 49.833 49.834 49.833h710.333c27.504 0 49.833-22.329 49.833-49.833v-66.444z"
 		fill={color}
