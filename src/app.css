@@ -9,6 +9,10 @@
         @apply relative max-h-[4.5rem] max-w-[4.5rem] bg-primary hover:bg-accent p-4 rounded-[3rem] hover:rounded-2xl text-accent hover:text-white shadow-2xl transition-all duration-300 ease-linear cursor-pointer
     }
 
+    .avatar{
+        @apply relative max-h-[4.5rem] max-w-[4.5rem] bg-accent hover:bg-primary p-4 rounded-[3rem] text-primary hover:text-complementary hover:animate-spin shadow-2xl transition-all duration-300 ease-linear cursor-pointer
+    }
+
     .sidebar-tooltip{
         @apply font-baloo absolute w-auto p-2 pr-3 min-w-max left-24 top-1/4 rounded-md shadow-md text-white bg-primary text-xl font-semibold transition-all duration-200 scale-0 origin-left 
     }
