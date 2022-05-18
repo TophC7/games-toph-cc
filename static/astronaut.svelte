@@ -23,3 +23,4 @@
 		fill-opacity={opacity}
 	/>
 </svg>
+\home

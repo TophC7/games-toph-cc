@@ -1,6 +1,6 @@
 <script>
-	import Fa from 'svelte-fa';
-	import { faChevronRight, faHashtag, faFaceLaugh, faPlus } from '@fortawesome/free-solid-svg-icons';
+	// import Fa from 'svelte-fa';
+	// import { faChevronRight, faHashtag } from '@fortawesome/free-solid-svg-icons';
 	import Astronaut from '../../static/astronaut.svelte';
 	import Post from '../components/post.svelte';
 </script>
@@ -13,7 +13,7 @@
 		</header>
 
 		<div class="flex text-3xl gap-4 place-items-center font-semibold text-complementary">
-			<Fa icon={faChevronRight} />
+			<!-- <Fa icon={faChevronRight} /> -->
 			<p class="mt-1 text-grayAccent">About me🧍🏽</p>
 		</div>
 		<!-- <div class="w-2/3 border-2 mx-auto rounded-sm border-secondary bg-secondary" /> -->
@@ -22,7 +22,7 @@
 	<!-- INFO: column with content -->
 	<div name="second-col" class="flex mt-24 w-3/4 bg-secondary z-30">
 		<header class="fixed top-0 flex h-24 w-full p-4 text-4xl gap-4 place-items-center font-semibold  text-grayAccent bg-secondary shadow-xl">
-			<Fa icon={faHashtag} />
+			<!-- <Fa icon={faHashtag} /> -->
 			<p class=" mt-1 text-complementary">Hello</p>
 		</header>
 		<div class="flex flex-col pt-6 pl-6 h-full w-24 min-w-max">
