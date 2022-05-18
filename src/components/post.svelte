@@ -1,6 +1,6 @@
 <script>
 	// import Fa from 'svelte-fa';
-	import { faFaceLaugh } from '@fortawesome/free-solid-svg-icons';
+	// import { faFaceLaugh } from '@fortawesome/free-solid-svg-icons';
 
 	export var reaction = false;
 </script>
